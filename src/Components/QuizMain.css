@@ -1,0 +1,32 @@
+.next{
+    background-color: #009e00;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.next :hover{
+    background-color: green;
+}
+
+.next[disabled]{
+    display: none;
+}
+
+.finalPage h1{
+    text-align: center;
+    color: #008416;
+    margin: 15px 0;
+    font-family: Arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: none;
+    text-shadow: none;
+}
+
+.finalPage{
+    text-align: center;
+}
